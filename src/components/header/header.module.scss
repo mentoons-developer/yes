@@ -1,0 +1,49 @@
+.ok {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.1);
+
+  animation-name: show;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.notok {
+  position: relative;
+  z-index: 999;
+}
+.header {
+  background: #eef9f3;
+  padding: 0.3rem 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: green;
+
+  a {
+    height: 3.8em;
+    display: grid;
+    place-items: center;
+
+    img {
+      height: inherit;
+    }
+
+    .faq {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+@keyframes show {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

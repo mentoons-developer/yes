@@ -1,0 +1,79 @@
+.wrapper {
+  background-image: url("../../assets/rocksbg.png");
+
+  background-size: contain;
+  background-position: 0% 20%;
+  background-color: #eef9f3;
+  background-repeat: no-repeat;
+}
+.herosec {
+  padding: 2rem;
+  padding-bottom: 0;
+  p {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem;
+  div {
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    border-radius: 0.5rem;
+
+    p {
+      font-size: 0.9rem;
+    }
+    img {
+      height: 30vw;
+      transition: all 0.3s ease-in;
+      &:hover {
+        transition: all 0.3s ease-in;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+.title {
+  background: maroon;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  color: aliceblue;
+  padding: 0.2rem 0.8rem;
+  width: fit-content;
+  margin: auto;
+}
+.merch {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  .imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+  img {
+    width: 100%;
+  }
+}

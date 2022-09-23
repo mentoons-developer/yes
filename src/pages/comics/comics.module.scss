@@ -1,0 +1,141 @@
+.wrapper {
+  background-image: url('../../assets/rocksbg.png');
+  background-size: contain;
+  background-position: 0% 20%;
+  background-color: #eef9f3;
+  background-repeat: no-repeat;
+}
+.text {
+  text-align: center;
+  width: 90%;
+}
+.title {
+  text-align: center;
+  width: fit-content;
+  white-space: nowrap;
+
+  background: maroon;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+}
+.container {
+  min-height: 110vw;
+  display: flex;
+  justify-content: center;
+
+  .containerrr {
+    width: 90%;
+    height: 73vw;
+    position: relative;
+    .descriptionImage {
+      z-index: 97;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        background: maroon;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+          rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        color: aliceblue;
+        padding: 0.3rem 1rem;
+        width: fit-content;
+        margin: 0 auto;
+
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      img {
+        height: 50vw;
+      }
+    }
+    .board {
+      position: absolute;
+      top: 55%;
+      width: 100%;
+    }
+    .text {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 85%;
+      text-align: center;
+      top: 80vw;
+      font-size: 0.9rem;
+      font-weight: 900;
+    }
+  }
+  .illuButton2Text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.cony {
+  display: flex;
+  justify-content: center;
+  .containerrr2 {
+    position: relative;
+    min-height: 60vw;
+    width: 90%;
+    .board {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+    }
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+    }
+    .title {
+      position: absolute;
+      top: 4%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .illuButton2Text {
+      background-color: blue;
+      position: absolute;
+      top: 84%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+.comicsWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
